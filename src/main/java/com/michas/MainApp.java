@@ -15,7 +15,7 @@ public class MainApp extends Application {
         
         Scene scene = new Scene(root);
         scene.getStylesheets().add("/styles/Styles.css");
-        stage.setTitle("Projekt 1 - wielowątkowość");
+        stage.setTitle("Multithreaded");
         stage.setScene(scene);
         stage.show();
     }
