@@ -7,8 +7,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.concurrent.*;
 
-//thread that takes care of analyzing one specific .xlsx. It uses ExecutorService for creating another threads B
-//for analyzing its input file.
+
 public class WatekA implements Callable<List<String>> {
 
     private String name;
